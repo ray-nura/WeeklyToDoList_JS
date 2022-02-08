@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="main">
+    <header>
+      <h1>My Weekly Planner</h1>
+    </header>
+    <form>
+      <input type="text" class="todo-input">
+      <button class="todo-button" type="submit">
+        <i class="fas fa-plus-square"></i>
+      </button>
+      <label for="bgImg">Choose a theme</label>
+      <select id="bgImg" name="themesBg" class="themes" a>
+        <option value="GreenNature">Green Nature</option>
+        <option value="Moon">Moon</option>
+        <option value="MagicSky">Magic Sky</option>
+        <option value="Mountain">Mountain</option>
+        <option value="Flowers">Flowers</option>
+      </select>
+    </form>
+
+    <section>
+      <form>
+        <input type="text" class="newTaskinput" placeholder="What needs to be done?">
+        <span class="newTaskAddBtn" type="submit">
+          <i class="fas fa-plus-square"></i>
+        </span>
+        <div class="weekDay">
+          <label for="sunday">San</label>
+          <input type="checkbox" id="sunday" name="sunday" value="sunday">
+          <label for="monday">Mon</label>
+          <input type="checkbox" id="monday" name="monday" value="monday">
+          <label for="tuesday">Tue</label>
+          <input type="checkbox" id="tuesday" name="tuesday" value="tuesday">
+          <label for="wednesday">Wed</label>
+          <input type="checkbox" id="wednesday" name="wednesday" value="wednesday">
+          <label for="thursday">Thu</label>
+          <input type="checkbox" id="thursday" name="thursday" value="thursday">
+          <label for="friday">Fri</label>
+          <input type="checkbox" id="friday" name="friday" value="friday">
+          <label for="saturday">Sat</label>
+          <input type="checkbox" id="saturday" name="saturday" value="saturday">
+        </div>
+        <input type="time" id="time" name="time" value="time">
+        <div class="taskBtn">
+          <!-- <input type="submit" value="Add New Task">
+            <input type="reset" value="Cancel"> -->
+            <button>Add New Task</button>
+            <button>Cancel</button>
+          </div>
+      </form>
+    </section>
+
+
+    
+
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
