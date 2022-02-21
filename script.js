@@ -17,9 +17,9 @@ const bgImgTheme = document.querySelector('#bgImg');
 const taskInput = document.querySelector('.fa-plus-square');
 const cancelBtn = document.querySelector('#cancel');
 
-displayImg(moonData1, taskData)
+// displayImg(moonData1, taskData)
 // displayImg(mountainData1, taskData)
-// displayImg(flowerData1, taskData)
+displayImg(flowerData1, taskData)
 // displayImg(greenData1, taskData)
 // displayImg(magicSkyData1, taskData)
 
